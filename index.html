@@ -1,0 +1,791 @@
+<!doctype html>
+<html lang="en-NG">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0B2A4A">
+<meta name="description" content="A live, step-by-step programme that fixes your grammar foundation, teaches you how to structure your thoughts and gives you real speaking practice.">
+
+<title>Speak With Confidence: 8-Week Live English Cohort</title>
+
+<!-- Open Graph / Twitter. NOTE: replace the relative og:image path with an absolute URL after deploying. -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_NG">
+<meta property="og:title" content="Speak With Confidence: 8-Week Live English Cohort">
+<meta property="og:description" content="A live, step-by-step programme that fixes your grammar foundation, teaches you how to structure your thoughts and gives you real speaking practice.">
+<meta property="og:image" content="images/og-placeholder.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Speak With Confidence: 8-Week Live English Cohort">
+<meta name="twitter:description" content="A live, step-by-step programme that fixes your grammar foundation, teaches you how to structure your thoughts and gives you real speaking practice.">
+<meta name="twitter:image" content="images/og-placeholder.png">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230B2A4A'/%3E%3Cpath d='M17 21h30a5 5 0 0 1 5 5v12a5 5 0 0 1-5 5H31l-9 8v-8h-5a5 5 0 0 1-5-5V26a5 5 0 0 1 5-5z' fill='%23fff'/%3E%3C/svg%3E">
+
+<link rel="preload" href="fonts/inter-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/lora-700-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="images/instructor.webp" type="image/webp">
+
+<!-- =====================================================================
+     ANALYTICS SLOT
+     Paste your analytics snippet here (Google Analytics, Meta Pixel,
+     TikTok Pixel, etc.). This is the ONLY place third-party scripts
+     should go. Nothing is loaded by default.
+     ===================================================================== -->
+
+<style>
+@font-face{font-family:'Lora';font-style:normal;font-weight:700;font-display:swap;src:url('fonts/lora-700-latin.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:'Inter';font-style:normal;font-weight:400 700;font-display:swap;src:url('fonts/inter-var-latin.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:'Inter';font-style:normal;font-weight:400 700;font-display:swap;src:url('fonts/inter-naira.woff2') format('woff2');unicode-range:U+20A6;}
+
+:root{
+  --navy:#0B2A4A;--text:#1F2937;--muted:#4B5563;--blue:#1D5FA8;
+  --cta:#C2410C;--cta-hover:#9A3412;--bg:#FFFFFF;--bg-tint:#F3F7FB;
+  --green:#166534;--green-tint:#ECF7F0;--highlight:#FFF3C4;
+  --border:#D6E0EB;--x:#B42318;
+  --shadow:0 2px 12px rgba(11,42,74,.08);
+  --serif:'Lora',Georgia,'Times New Roman',serif;
+  --sans:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;
+  color-scheme:light;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{
+  margin:0;background:var(--bg);color:var(--text);
+  font-family:var(--sans);font-size:18px;line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+}
+[hidden]{display:none!important}
+
+img{max-width:100%}
+p{margin:0 0 20px;max-width:66ch}
+p:last-child{margin-bottom:0}
+strong{font-weight:700}
+em{font-style:italic}
+a{color:var(--blue)}
+
+.wrap{width:100%;max-width:720px;margin:0 auto;padding:0 20px}
+.wrap-wide{width:100%;max-width:1080px;margin:0 auto;padding:0 20px}
+
+.section{padding:56px 0}
+.section--tint{background:var(--bg-tint)}
+
+h1,h2,h3{font-family:var(--serif);font-weight:700;color:var(--navy);margin:0}
+h1{font-size:30px;line-height:1.2;margin-bottom:20px;text-wrap:balance}
+h2{font-size:22px;line-height:1.25;letter-spacing:.02em;margin:0 0 20px;text-wrap:balance}
+h3{font-size:19px;line-height:1.3;margin:0 0 10px}
+@media (min-width:768px){
+  body{font-size:19px}
+  h1{font-size:44px}
+  h2{font-size:28px}
+  h3{font-size:21px}
+  .section{padding:96px 0}
+}
+
+.label-bold{font-weight:600;color:var(--navy)}
+
+/* ---------- Hero ---------- */
+.hero{padding:40px 0 56px}
+@media (min-width:768px){.hero{padding:72px 0 96px}}
+.hero-grid{display:grid;gap:32px}
+@media (min-width:768px){
+  .hero-grid{grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:56px;align-items:center}
+}
+.hl-blue{color:var(--blue)}
+.lede{font-size:19px;line-height:1.55;max-width:52ch}
+@media (min-width:768px){.lede{font-size:21px}}
+.hero-photo{margin:8px auto 0;max-width:420px}
+@media (min-width:768px){.hero-photo{margin:0}}
+.hero-photo img,.about-photo img{display:block;width:100%;height:auto;border-radius:12px;object-fit:cover;object-position:center 20%}
+
+/* ---------- CTA button ---------- */
+.btn-cta{
+  display:flex;align-items:center;justify-content:center;gap:12px;
+  width:100%;min-height:56px;padding:0 28px;border-radius:10px;
+  background:var(--cta);color:#fff;text-decoration:none;
+  font-family:var(--sans);font-weight:700;font-size:18px;line-height:1;
+  box-shadow:0 6px 16px rgba(194,65,12,.28);
+  transition:background-color .15s ease,transform .15s ease;
+}
+.btn-cta:hover{background:var(--cta-hover);transform:translateY(-1px)}
+.btn-cta:active{background:var(--cta-hover);transform:translateY(0)}
+.btn-cta:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+.btn-cta .ico{width:20px;height:20px;flex:0 0 20px}
+@media (min-width:768px){.btn-cta{display:inline-flex;width:auto;min-width:320px}}
+.cta-row{margin:32px 0 0;max-width:none}
+
+/* ---------- Microcopy ---------- */
+.microcopy{
+  display:flex;gap:10px;align-items:flex-start;margin:16px 0 0;
+  font-size:15px;line-height:1.5;color:var(--muted);font-style:italic;max-width:44ch;
+}
+.microcopy .ico{width:20px;height:20px;flex:0 0 20px;margin-top:1px;color:var(--muted)}
+
+/* ---------- Letter ---------- */
+.letter{max-width:640px}
+.dear{font-family:var(--sans);font-weight:600;font-size:20px;margin:0 0 20px;color:var(--text)}
+.picture{font-style:italic;margin:0 0 20px}
+.staccato{border-left:4px solid var(--blue);padding-left:20px;margin:28px 0}
+.staccato p{
+  font-family:var(--serif);font-weight:700;color:var(--navy);
+  font-size:22px;line-height:1.4;margin:0 0 12px;max-width:none;
+}
+.staccato p:last-child{margin-bottom:0}
+.moment{font-weight:700;margin:24px 0 12px}
+.big-line{
+  font-family:var(--serif);font-weight:700;color:var(--navy);
+  font-size:22px;line-height:1.4;margin:32px 0;max-width:none;
+}
+.pullquote{
+  margin:28px 0;padding:0 0 0 20px;border-left:4px solid var(--blue);
+  font-family:var(--serif);font-weight:700;color:var(--navy);
+  font-size:22px;line-height:1.4;
+}
+.pullquote p{margin:0;max-width:none}
+@media (min-width:768px){.pullquote{font-size:26px}}
+mark{
+  background:linear-gradient(to top,var(--highlight) 60%,transparent 60%);
+  color:var(--navy);padding:0;
+}
+
+/* ---------- Reason cards ---------- */
+.reasons{counter-reset:reason;display:grid;gap:16px;margin:24px 0 32px}
+.reason{
+  position:relative;background:#fff;border:1px solid var(--border);
+  border-radius:12px;padding:24px 24px 24px 76px;box-shadow:var(--shadow);
+}
+.reason p{margin:0;max-width:none}
+.reason::before{
+  counter-increment:reason;content:counter(reason);
+  position:absolute;left:24px;top:24px;
+  display:grid;place-items:center;width:32px;height:32px;border-radius:999px;
+  background:var(--bg-tint);color:var(--blue);
+  font-family:var(--sans);font-weight:600;font-size:15px;
+}
+@media (min-width:768px){.reason{padding:32px 32px 32px 84px}}
+
+/* ---------- Week timeline ---------- */
+.timeline{list-style:none;margin:32px 0 0;padding:0 0 0 28px;border-left:2px solid var(--border)}
+.timeline>li{position:relative;padding:0 0 32px}
+.timeline>li:last-child{padding-bottom:0}
+.timeline>li::before{
+  content:'';position:absolute;left:-37px;top:6px;
+  width:12px;height:12px;border-radius:999px;
+  background:var(--blue);border:2px solid var(--bg);
+}
+.week-label{
+  display:inline-block;margin-bottom:8px;padding:4px 10px;border-radius:999px;
+  background:rgba(29,95,168,.08);color:var(--blue);
+  font-family:var(--sans);font-weight:600;font-size:13px;line-height:1.2;letter-spacing:.08em;
+}
+.timeline p{max-width:none;margin:0 0 14px}
+.timeline p:last-child{margin-bottom:0}
+
+/* ---------- Checklist ---------- */
+.check-list{list-style:none;margin:24px 0 0;padding:0;display:grid;gap:16px}
+.check-list li{display:flex;gap:12px;align-items:flex-start}
+.check-list p{margin:0;max-width:none}
+.ico{width:24px;height:24px;flex:0 0 24px;margin-top:2px}
+.check-list .ico{color:var(--blue)}
+
+/* ---------- For / not for ---------- */
+.choice-grid{display:grid;gap:20px}
+@media (min-width:768px){.choice-grid{grid-template-columns:1fr 1fr;align-items:start}}
+.choice{
+  background:#fff;border:1px solid var(--border);border-radius:12px;
+  padding:24px;box-shadow:var(--shadow);
+}
+.choice--for{border-top:4px solid var(--green)}
+.choice--not{border-top:4px solid var(--border)}
+.choice--not h2{color:var(--muted)}
+.choice h2{font-size:20px}
+@media (min-width:768px){.choice{padding:32px}.choice h2{font-size:22px}}
+.plain-list{list-style:none;margin:16px 0 0;padding:0;display:grid;gap:14px}
+.plain-list li{display:flex;gap:12px;align-items:flex-start}
+.plain-list p{margin:0;max-width:none}
+.choice--for .ico{color:var(--green)}
+.choice--not .ico{color:var(--x)}
+
+/* ---------- About ---------- */
+.about-grid{display:grid;gap:28px}
+@media (min-width:768px){
+  .about-grid{grid-template-columns:minmax(0,35fr) minmax(0,65fr);gap:48px;align-items:start}
+}
+.about-photo{max-width:320px;width:100%}
+@media (min-width:768px){.about-photo{max-width:none}}
+
+/* ---------- Investment ---------- */
+.invest-card{
+  background:#fff;border:1px solid var(--border);border-radius:12px;
+  padding:24px;box-shadow:var(--shadow);max-width:640px;margin:0 auto;
+}
+@media (min-width:768px){.invest-card{padding:40px}}
+.price-label{font-weight:600;color:var(--navy);margin:24px 0 4px}
+.price{
+  font-family:var(--sans);font-weight:700;color:var(--navy);
+  font-size:44px;line-height:1.1;letter-spacing:-.01em;margin:0 0 24px;max-width:none;
+}
+@media (min-width:768px){.price{font-size:56px}}
+
+/* ---------- Promise ---------- */
+.promise{
+  background:var(--green-tint);border:1px solid rgba(22,101,52,.25);
+  border-radius:16px;padding:24px;
+}
+@media (min-width:768px){.promise{padding:40px}}
+.promise h2{display:flex;align-items:center;gap:12px}
+.promise h2 .ico{width:28px;height:28px;flex:0 0 28px;color:var(--green);margin:0}
+.date-callout{
+  display:flex;gap:12px;align-items:flex-start;
+  background:#fff;border:1px solid var(--border);border-radius:12px;
+  padding:16px 18px;margin-top:24px;font-weight:700;color:var(--navy);
+}
+.date-callout .ico{color:var(--navy)}
+.date-callout p{margin:0;max-width:none}
+
+/* ---------- FAQ ---------- */
+.faq{margin-top:8px;border-top:1px solid var(--border)}
+.faq details{border-bottom:1px solid var(--border)}
+.faq summary{
+  display:flex;align-items:center;justify-content:space-between;gap:16px;
+  min-height:56px;padding:12px 0;cursor:pointer;
+  font-family:var(--sans);font-weight:600;font-size:18px;line-height:1.4;color:var(--navy);
+  list-style:none;
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{
+  content:'';flex:0 0 20px;width:20px;height:20px;
+  background:
+    linear-gradient(var(--blue),var(--blue)) center/12px 2px no-repeat,
+    linear-gradient(var(--blue),var(--blue)) center/2px 12px no-repeat;
+  transition:transform .2s ease;
+}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq .answer{padding:0 0 20px;max-width:66ch}
+.faq .answer p{margin:0;max-width:none}
+
+/* ---------- Footer ---------- */
+footer{
+  background:var(--navy);color:rgba(255,255,255,.8);
+  padding:32px 0;text-align:center;font-size:14px;line-height:1.5;
+}
+footer p{margin:0 auto;max-width:none}
+@media (max-width:767.98px){
+  footer{padding-bottom:calc(104px + env(safe-area-inset-bottom))}
+}
+
+/* ---------- Sticky mobile CTA ---------- */
+.sticky-cta{display:none}
+@media (max-width:767.98px){
+  .sticky-cta{
+    display:block;position:fixed;left:0;right:0;bottom:0;z-index:30;
+    background:#fff;border-top:1px solid var(--border);
+    padding:12px 16px calc(12px + env(safe-area-inset-bottom));
+  }
+  .sticky-cta .btn-cta{width:100%}
+}
+
+.section{content-visibility:auto;contain-intrinsic-size:auto 800px}
+.hero{content-visibility:auto;contain-intrinsic-size:auto 600px}
+
+/* ---------- Motion ---------- */
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important;animation:none!important}
+}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="currentColor"/><path d="M7 12.6l3.1 3.1L17 9.4" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="currentColor" opacity=".12"/><path d="M9 9l6 6M15 9l-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="i-people" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M2.8 19.2c0-3.1 2.8-5.2 6.2-5.2s6.2 2.1 6.2 5.2M16.4 5.6a3.2 3.2 0 0 1 0 5.6M18.2 14.6c2 .6 3.4 2.2 3.4 4.6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 2.8l7.2 2.7v6.1c0 4.4-3 7.6-7.2 9.6-4.2-2-7.2-5.2-7.2-9.6V5.5L12 2.8z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M8.7 11.8l2.3 2.3 4.3-4.4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3.2" y="4.8" width="17.6" height="16" rx="2.4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3.2 9.6h17.6M8.4 2.8v3.6M15.6 2.8v3.6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+</svg>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap wrap-wide">
+      <div class="hero-grid">
+        <div class="hero-text">
+          <h1 id="hero-title">The 8-Week Live Programme That Takes You From Second-Guessing Your English to <span class="hl-blue">Speaking With Clarity and Authority.</span></h1>
+          <p class="lede">A live, step-by-step programme that fixes your grammar foundation, teaches you how to structure your thoughts and gives you <strong>real speaking practice</strong>, led by a tutor who has taught <strong>over 5,000 students in 10 years</strong>.</p>
+          <p class="cta-row" style="margin-top:0">
+            <a class="btn-cta" href="__FLUTTERWAVE_PAYMENT_LINK__" data-cta="hero">Reserve my seat <svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a>
+          </p>
+          <p class="microcopy">
+            <svg class="ico" aria-hidden="true" focusable="false"><use href="#i-people"/></svg>
+            <span>Limited to 20 participants so everyone gets meaningful speaking time, individual feedback and room to improve.</span>
+          </p>
+        </div>
+        <div class="hero-photo">
+          <img src="images/instructor.webp"
+               srcset="images/instructor-480.webp 480w, images/instructor.webp 800w"
+               sizes="(max-width: 767px) 100vw, 40vw"
+               width="800" height="1000"
+               alt="[TUTOR NAME], English language tutor"
+               fetchpriority="high" decoding="async"
+               style="object-fit:cover;object-position:center 20%;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ THE LETTER ============ -->
+  <section class="section" aria-label="A letter to you">
+    <div class="wrap">
+      <div class="letter">
+        <p class="dear">Dear friend,</p>
+
+        <p class="picture">Picture this;</p>
+
+        <div class="staccato">
+          <p>You are in a meeting.</p>
+          <p>A question is thrown to the room.</p>
+          <p>You know the answer.</p>
+          <p>You have actually known it for a while.</p>
+        </div>
+
+        <p>But before you open your mouth, your brain starts editing. <em>Is it “I have been” or “I was”? Will this sound too simple? What if I say it wrongly and people notice?</em></p>
+
+        <p>By the time you have built the perfect sentence, someone else has spoken.</p>
+
+        <p class="moment"><strong>The moment is gone.</strong></p>
+
+        <p>You nod, stay quiet and tell yourself, <em>“Next time.”</em></p>
+
+        <p>Next time comes. It happens again.</p>
+
+        <blockquote class="pullquote">
+          <p>If that is you, I want you to hear this first: <mark>it is not because you are unintelligent.</mark></p>
+        </blockquote>
+
+        <p>In my years of teaching, I have encountered brilliant engineers, nurses, bankers, entrepreneurs, graduates and other professionals who share this frustration. They have ideas, qualifications and experience.</p>
+
+        <p><strong>What they lack is confidence</strong> that their English will carry those ideas effectively.</p>
+
+        <p>Confidence in English is not simply a personality trait. <strong>It is a skill</strong> that can be developed through the right instruction, deliberate practice and feedback.</p>
+
+        <p class="big-line">That is exactly what this 8-week cohort is designed to help you do.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHY NOTHING WORKED ============ -->
+  <section class="section section--tint" aria-label="Why past attempts may not have worked">
+    <div class="wrap">
+      <p>You have probably tried to improve.</p>
+
+      <p>Perhaps you have watched free lessons, read grammar books, downloaded apps or told yourself to “just speak more.”</p>
+
+      <p>These efforts can help, but they may not solve the problem on their own.</p>
+
+      <p><strong>Here is why:</strong></p>
+
+      <div class="reasons">
+        <div class="reason">
+          <p><strong>You learned grammar to pass exams, not necessarily to communicate.</strong> School may have taught you rules to identify in a test without showing you how to use them naturally in a live conversation.</p>
+        </div>
+        <div class="reason">
+          <p><strong>You may not have had a safe place to practise out loud.</strong> Watching a lesson can help you recognise correct English. Speaking, receiving feedback and trying again help you become better at producing it.</p>
+        </div>
+        <div class="reason">
+          <p><strong>You may never have followed a structured system.</strong> Random tips and isolated lessons can leave gaps. A clear progression, practised consistently with feedback, gives you a path to follow.</p>
+        </div>
+      </div>
+
+      <blockquote class="pullquote">
+        <p>The problem is not that you cannot improve. You may simply need a more practical and structured approach.</p>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- ============ INTRODUCING ============ -->
+  <section class="section" aria-labelledby="intro-title">
+    <div class="wrap">
+      <h2 id="intro-title">INTRODUCING: THE SPEAK WITH CONFIDENCE COHORT</h2>
+      <p>This is a <strong>live, 8-week small-group virtual programme</strong> designed to help you move from hesitant and over-careful to clearer, more structured and more confident communication.</p>
+      <p class="label-bold"><strong>What you will learn;</strong></p>
+
+      <ol class="timeline">
+        <li>
+          <span class="week-label">WEEK 1:</span>
+          <h3>BUILD GRAMMATICALLY CORRECT SENTENCES.</h3>
+          <p>Master the foundations of English grammar, sentence construction, parts of speech, phrases and clauses.</p>
+          <p>Learn to construct complete, meaningful sentences and express your thoughts correctly.</p>
+        </li>
+        <li>
+          <span class="week-label">WEEK 2:</span>
+          <h3>MASTER ENGLISH TENSES</h3>
+          <p>Learn to communicate accurately about past experiences, present activities and future intentions.</p>
+          <p>Understand the different tenses and address common tense-related errors.</p>
+        </li>
+        <li>
+          <span class="week-label">WEEK 3:</span>
+          <h3>CONCORD, PRONOUNS AND GRAMMATICAL ACCURACY</h3>
+          <p>Master subject–verb agreement, pronoun usage and other essential grammatical rules.</p>
+          <p>Identify and correct common errors that affect the accuracy of your spoken English.</p>
+        </li>
+        <li>
+          <span class="week-label">WEEK 4:</span>
+          <h3>PREPOSITIONS, ARTICLES AND OTHER FUNCTIONAL WORDS</h3>
+          <p>Understand how to use prepositions, articles, conjunctions, determiners and quantifiers correctly.</p>
+          <p>Learn to express relationships between ideas with greater precision.</p>
+        </li>
+        <li>
+          <span class="week-label">WEEK 5:</span>
+          <h3>ADVANCED GRAMMAR FOR EFFECTIVE EXPRESSION</h3>
+          <p>Explore conditional sentences, active and passive voice, reported speech, gerunds, infinitives, modals and other important grammatical structures.</p>
+          <p>Learn to construct more sophisticated sentences without common grammatical errors.</p>
+        </li>
+        <li>
+          <span class="week-label">WEEK 6:</span>
+          <h3>EXPRESSING YOUR THOUGHTS CLEARLY AND FLUENTLY</h3>
+          <p>Learn how to organise your thoughts, manage hesitation, retrieve words more readily and express ideas without rambling.</p>
+          <p>Develop your ability to speak spontaneously and communicate with clarity.</p>
+        </li>
+        <li>
+          <span class="week-label">WEEK 7:</span>
+          <h3>EFFECTIVE CONVERSATIONS AND PUBLIC SPEAKING</h3>
+          <p>Learn how to initiate and sustain conversations, ask thoughtful questions, express opinions, disagree respectfully, tell compelling stories and deliver structured speeches and presentations.</p>
+        </li>
+        <li>
+          <span class="week-label">WEEK 8:</span>
+          <h3>PRONUNCIATION, DELIVERY AND SPEAKING WITH CONFIDENCE</h3>
+          <p>Improve pronunciation, intonation, sentence stress, speaking pace and voice projection.</p>
+          <p>Learn to use pauses effectively, manage nervousness and communicate with greater confidence.</p>
+          <p>Conclude with a <strong>speaking showcase</strong> to demonstrate your progress.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ EVERYTHING YOU GET ============ -->
+  <section class="section section--tint" aria-labelledby="gets-title">
+    <div class="wrap">
+      <h2 id="gets-title">EVERYTHING YOU GET</h2>
+      <ul class="check-list">
+        <li>
+          <svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg>
+          <p><strong>Eight weeks of live classes on Google Meet</strong>: 24 sessions, 1hour per session, on Fridays, Saturdays and Sundays by 7:00PM.</p>
+        </li>
+        <li>
+          <svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg>
+          <p><strong>A small, supportive group</strong> capped at 20 participants, so nobody gets lost in the crowd.</p>
+        </li>
+        <li>
+          <svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg>
+          <p><strong>Weekly speaking practice</strong> with specific, constructive feedback.</p>
+        </li>
+        <li>
+          <svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg>
+          <p><strong>Class recordings</strong> so you can catch up if you miss a session.</p>
+        </li>
+        <li>
+          <svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg>
+          <p><strong>A private WhatsApp community</strong> for practice, questions and accountability throughout the programme.</p>
+        </li>
+        <li>
+          <svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg>
+          <p><strong>A starting and ending speaking assessment</strong> so you can compare your progress.</p>
+        </li>
+        <li>
+          <svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg>
+          <p><strong>Practical workbooks and learning resources</strong> after every session.</p>
+        </li>
+      </ul>
+      <p class="cta-row">
+        <a class="btn-cta" href="__FLUTTERWAVE_PAYMENT_LINK__" data-cta="features">Reserve my seat <svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ WHO THIS IS FOR / NOT FOR ============ -->
+  <section class="section" aria-label="Who this cohort is for and not for">
+    <div class="wrap wrap-wide">
+      <div class="choice-grid">
+        <div class="choice choice--for">
+          <h2>WHO THIS IS FOR</h2>
+          <p class="label-bold"><strong>This cohort is for you if:</strong></p>
+          <ul class="plain-list">
+            <li>
+              <svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg>
+              <p>You are a working professional, graduate, entrepreneur or job seeker who wants to communicate with greater confidence.</p>
+            </li>
+            <li>
+              <svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg>
+              <p>You understand English but struggle to speak or write without worrying about mistakes.</p>
+            </li>
+            <li>
+              <svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg>
+              <p>You are ready to participate, practise and receive constructive feedback in a friendly environment.</p>
+            </li>
+            <li>
+              <svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg>
+              <p>You want a structured learning experience rather than another collection of random tips.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="choice choice--not">
+          <h2>WHO THIS IS NOT FOR</h2>
+          <ul class="plain-list">
+            <li>
+              <svg class="ico" aria-hidden="true" focusable="false"><use href="#i-x"/></svg>
+              <p><strong>You want instant fluency without putting in the practice.</strong> Confidence is built, not downloaded.</p>
+            </li>
+            <li>
+              <svg class="ico" aria-hidden="true" focusable="false"><use href="#i-x"/></svg>
+              <p><strong>You are unwilling to participate in speaking activities, even in a small group.</strong></p>
+            </li>
+            <li>
+              <svg class="ico" aria-hidden="true" focusable="false"><use href="#i-x"/></svg>
+              <p><strong>You are looking for examination preparation such as WAEC or JAMB.</strong> This cohort focuses on adult communication.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHY LEARN FROM ME ============ -->
+  <section class="section section--tint" aria-labelledby="about-title">
+    <div class="wrap wrap-wide">
+      <div class="about-grid">
+        <div class="about-photo">
+          <img src="images/instructor.webp"
+               srcset="images/instructor-480.webp 480w, images/instructor.webp 800w"
+               sizes="(max-width: 767px) 100vw, 35vw"
+               width="800" height="1000"
+               alt="[TUTOR NAME], English language tutor"
+               loading="lazy" decoding="async"
+               style="object-fit:cover;object-position:center 20%;">
+        </div>
+        <div class="about-copy">
+          <h2 id="about-title">WHY LEARN FROM ME?</h2>
+          <p>I have been teaching English for <strong>10 years</strong>, and over that time I have taught <strong>more than 5,000 students</strong>.</p>
+          <p>My lessons have been watched <strong>over 5 million times</strong> across TikTok, YouTube and Facebook.</p>
+          <p>I focus on explaining English in ways that are practical, clear and accessible.</p>
+          <p>My students have gained admission into institutions including <strong>OAU, UI, FUTA and UNILORIN</strong>. I have also tutored students in <strong>the USA, the UK and Canada</strong>.</p>
+          <p>The same clear, patient and practical approach that has supported my students will guide you in this cohort—now with a particular focus on communicating your thoughts and ideas effectively.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS (hidden until real ones exist) ============
+       To make this section visible: delete the word "hidden" from the
+       <section> tag below, then replace the empty placeholders with real
+       testimonials. Do not invent testimonials.
+       ================================================================== -->
+  <section class="section" id="testimonials" aria-labelledby="testimonials-title" hidden>
+    <div class="wrap">
+      <h2 id="testimonials-title">WHAT OTHERS ARE SAYING</h2>
+      <div class="testimonial-grid">
+        <figure class="testimonial">
+          <div class="t-avatar" aria-hidden="true"></div>
+          <blockquote class="t-quote"></blockquote>
+          <figcaption class="t-name"></figcaption>
+        </figure>
+        <figure class="testimonial">
+          <div class="t-avatar" aria-hidden="true"></div>
+          <blockquote class="t-quote"></blockquote>
+          <figcaption class="t-name"></figcaption>
+        </figure>
+        <figure class="testimonial">
+          <div class="t-avatar" aria-hidden="true"></div>
+          <blockquote class="t-quote"></blockquote>
+          <figcaption class="t-name"></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ YOUR INVESTMENT ============ -->
+  <section class="section" aria-labelledby="investment-title">
+    <div class="wrap">
+      <div class="invest-card">
+        <h2 id="investment-title">YOUR INVESTMENT</h2>
+        <p>Private one-on-one English coaching can cost considerably more over the same period. This cohort gives you a structured learning path, group speaking practice, feedback and a supportive learning community.</p>
+        <p class="price-label">Your investment for the full 8-week cohort:</p>
+        <p class="price">₦150,000</p>
+        <p>Your payment covers the live classes, speaking feedback, private community, class recordings, workbooks and learning resources.</p>
+        <p><strong>Think about it this way:</strong> you may have been carrying this hesitation for years. Consider what it has cost you in unspoken ideas, missed opportunities and conversations you have avoided. Eight weeks of focused practice is an opportunity to start changing that pattern.</p>
+        <p class="cta-row">
+          <a class="btn-cta" href="__FLUTTERWAVE_PAYMENT_LINK__" data-cta="investment">Reserve my seat <svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MY PROMISE TO YOU ============ -->
+  <section class="section" aria-labelledby="promise-title">
+    <div class="wrap">
+      <div class="promise">
+        <h2 id="promise-title"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-shield"/></svg>MY PROMISE TO YOU</h2>
+        <p><strong>Join the first two sessions</strong> and participate in the work. If you honestly feel the cohort is not right for you, contact me afterwards, and I will refund your payment.</p>
+        <p>I would rather give you the opportunity to experience the programme with a clear, fair guarantee than leave you wondering whether it could help.</p>
+        <p>We are only taking only 20 participants for this cohort because meaningful speaking practice and individual feedback are difficult to provide in an oversized class.</p>
+        <p>Once all 20 seats are filled, registration will close.</p>
+        <div class="date-callout">
+          <svg class="ico" aria-hidden="true" focusable="false"><use href="#i-calendar"/></svg>
+          <p>Registration closes on the <mark>2nd of December</mark>. Classes begin on the <mark>4th of December</mark>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ HOW IT WORKS ============ -->
+  <section class="section" aria-labelledby="how-title">
+    <div class="wrap">
+      <h2 id="how-title">HOW IT WORKS</h2>
+      <p>Click the registration button below and complete your payment using one of the available payment methods.</p>
+      <p>Upon validation of your payment, you will be redirected to the cohort’s WhatsApp group where further details about the cohorts will be shared.</p>
+      <p class="cta-row">
+        <a class="btn-cta" href="__FLUTTERWAVE_PAYMENT_LINK__" data-cta="how-it-works">Reserve my seat <svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section section--tint" aria-labelledby="faq-title">
+    <div class="wrap">
+      <h2 id="faq-title">FREQUENTLY ASKED QUESTIONS</h2>
+      <div class="faq">
+        <details>
+          <summary>“My English is not very good. Will I be left behind?”</summary>
+          <div class="answer"><p>This programme is designed for people who want to strengthen their foundations and communicate more confidently. We begin with essential grammar and build progressively. You will also have opportunities to ask questions and receive feedback.</p></div>
+        </details>
+        <details>
+          <summary>“I am shy. Will I be forced to speak?”</summary>
+          <div class="answer"><p>You will be encouraged to participate, never embarrassed. We begin with manageable speaking activities and gradually build towards longer contributions. Speaking practice is an essential part of the programme, so you should be willing to try.</p></div>
+        </details>
+        <details>
+          <summary>“How much time do I need each week?”</summary>
+          <div class="answer"><p>Plan for approximately 45 Minutes of live class time, plus 15 minutes of independent practice. The schedule and recordings are intended to help you plan around your other responsibilities.</p></div>
+        </details>
+        <details>
+          <summary>“What if I miss a class?”</summary>
+          <div class="answer"><p>Class recordings will be made available so you can catch up. You can also use the WhatsApp community to ask questions about the lesson.</p></div>
+        </details>
+        <details>
+          <summary>“I live outside Nigeria. Can I join?”</summary>
+          <div class="answer"><p>Yes. Classes take place on Google Meet, so you can join from anywhere with a reliable internet connection. The classes take place on Fridays, Saturdays and Sundays by 7:00pm WAT.</p></div>
+        </details>
+        <details>
+          <summary>“How can I pay?”</summary>
+          <div class="answer"><p>You will see different payment methods at checkout. Kindly use a method that’s comfortable for you.</p></div>
+        </details>
+        <details>
+          <summary>“Is there a refund?”</summary>
+          <div class="answer"><p>If the lessons don’t meet your expectations after two live sessions, you may process for a refund. If you don’t reach out after the two live sessions and continue to attend the classes, we assume you are comfortable with the lessons and any attempt for a repayment becomes invalid.</p></div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 [TUTOR NAME]</p>
+</footer>
+
+<!-- Sticky mobile CTA: revealed by JS only after the hero button is scrolled past,
+     and hidden whenever another "Reserve my seat" button is on screen. -->
+<div class="sticky-cta" id="sticky-cta" hidden>
+  <a class="btn-cta" href="__FLUTTERWAVE_PAYMENT_LINK__" data-cta="sticky">Reserve my seat <svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a>
+</div>
+
+<script>
+/* 1. UTM pass-through ---------------------------------------------------
+   Copies any utm_* query parameters from the page URL onto each CTA link.
+   Fails silently. Buttons work with JavaScript disabled. */
+(function () {
+  try {
+    var params = new URLSearchParams(window.location.search);
+    var keep = [];
+    params.forEach(function (value, key) {
+      if (key.indexOf('utm_') === 0) { keep.push([key, value]); }
+    });
+    if (!keep.length) { return; }
+
+    var links = document.querySelectorAll('a[data-cta]');
+    for (var i = 0; i < links.length; i++) {
+      var href = links[i].getAttribute('href');
+      if (!href || !/^https?:\/\//i.test(href)) { continue; }
+      try {
+        var url = new URL(href, window.location.href);
+        keep.forEach(function (pair) { url.searchParams.set(pair[0], pair[1]); });
+        links[i].href = url.toString();
+      } catch (err) { /* ignore this link */ }
+    }
+  } catch (err) { /* silent */ }
+})();
+
+/* 2. Sticky mobile CTA --------------------------------------------------
+   Shows after the hero button scrolls out of view, hides while any other
+   CTA is visible. Uses cached measurements so scrolling never forces a
+   synchronous layout. Enhancement only; safe if it fails. */
+(function () {
+  try {
+    var bar = document.getElementById('sticky-cta');
+    if (!bar) { return; }
+    if (!window.matchMedia || !window.matchMedia('(max-width: 767.98px)').matches) { return; }
+    if (!('IntersectionObserver' in window)) { return; }
+
+    var ctas = Array.prototype.slice.call(document.querySelectorAll('main a[data-cta]'));
+    var hero = document.querySelector('main a[data-cta="hero"]');
+    if (!ctas.length) { return; }
+
+    var heroBottom = 0;
+    var onScreen = {};
+
+    function scrollY() {
+      return window.pageYOffset || document.documentElement.scrollTop || 0;
+    }
+
+    /* Cached, so it runs only on load, resize and after fonts settle. */
+    function measure() {
+      if (!hero) { return; }
+      heroBottom = hero.getBoundingClientRect().bottom + scrollY();
+    }
+
+    function anyOnScreen() {
+      for (var key in onScreen) {
+        if (onScreen[key]) { return true; }
+      }
+      return false;
+    }
+
+    /* Reads only cached values and scrollY, so it never forces a layout. */
+    function apply() {
+      if (scrollY() > heroBottom && !anyOnScreen()) { bar.removeAttribute('hidden'); }
+      else { bar.setAttribute('hidden', ''); }
+    }
+
+    var io = new IntersectionObserver(function (entries) {
+      for (var i = 0; i < entries.length; i++) {
+        onScreen[entries[i].target.getAttribute('data-cta')] = entries[i].isIntersecting;
+      }
+      apply();
+    }, { threshold: 0 });
+
+    ctas.forEach(function (el) { io.observe(el); });
+
+    measure();
+    apply();
+    if (document.fonts && document.fonts.ready && document.fonts.ready.then) {
+      document.fonts.ready.then(function () { measure(); apply(); });
+    }
+    window.addEventListener('load', function () { measure(); apply(); });
+    window.addEventListener('resize', function () { measure(); apply(); }, { passive: true });
+    window.addEventListener('scroll', apply, { passive: true });
+  } catch (err) { /* silent */ }
+})();
+</script>
+</body>
+</html>

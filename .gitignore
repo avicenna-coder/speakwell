@@ -1,0 +1,21 @@
+# Environment and secrets
+.env
+.env.*
+
+# Dependencies
+node_modules/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.log
+
+# OpenCode
+.opencode/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

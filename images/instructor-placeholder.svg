@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" fill="none" role="presentation">
+  <rect x="1" y="1" width="798" height="998" rx="28" fill="#F3F7FB" stroke="#D6E0EB" stroke-width="2"/>
+  <g fill="#1D5FA8" opacity="0.16">
+    <circle cx="400" cy="392" r="120"/>
+    <path d="M400 548c-134 0-243 88-243 196v18h486v-18c0-108-109-196-243-196z"/>
+  </g>
+</svg>
